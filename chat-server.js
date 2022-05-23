@@ -38,7 +38,7 @@ colors.sort(function(a,b) { return Math.random() > 0.5; } );
 var server = http.createServer(function(request, response) {
     // Not important for us. We're writing WebSocket server, not http server
 });
-server.listen(process.env.PORT || 1337);
+server.listen(process.env.PORT);
 //              webSocketsServerPort, function() {
 //    console.log((new Date()) + " Server is listening on port " + webSocketsServerPort);
 //});
