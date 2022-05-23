@@ -2,7 +2,7 @@ http// http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/
 "use strict";
 
 // Optional. You will see this name in eg. 'ps' or 'top' command
-process.title = 'node-chat';
+//process.title = 'node-chat';
 
 // Port where we'll run the websocket server
 var webSocketsServerPort = 1337;
@@ -38,7 +38,7 @@ colors.sort(function(a,b) { return Math.random() > 0.5; } );
 var server = http.createServer(function(request, response) {
     // Not important for us. We're writing WebSocket server, not http server
 });
-server.listen(process.env.PORT || 5000);
+server.listen(process.env.PORT || 1337);
 //              webSocketsServerPort, function() {
 //    console.log((new Date()) + " Server is listening on port " + webSocketsServerPort);
 //});
