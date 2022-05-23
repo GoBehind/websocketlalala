@@ -3,7 +3,7 @@
     "websocket": "^1.0.34"
   },
   "scripts": {
-      "start": "chat-server.js"
+      "start": "node chat-server.js"
   }
 }
 
